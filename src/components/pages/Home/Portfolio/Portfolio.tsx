@@ -16,7 +16,7 @@ const Portfolio = () => {
                 </PortfolioCard>
                 <PortfolioCard to="/">
                     <div className="w-full h-full flex justify-center hover:opacity-70 transition-all ease-in-out duration-200 rounded-xl bg-dark-red items-center">
-                        <p className="text-3xl lg:text-5xl text-center text-white font-bold">See all Projects</p>
+                        <p className="text-3xl lg:text-5xl py-6 text-center text-white font-bold">See all Projects</p>
                     </div>
                 </PortfolioCard>
             </div>

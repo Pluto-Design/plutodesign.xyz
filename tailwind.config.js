@@ -22,11 +22,9 @@ export default {
         '3/10': "30%",
         '2/10': "20%",
         '1/10': "10%",
+        "full": "100%"
       }
     },
-    height: {
-      'h-screen': "100svh"
-    }
   },
   plugins: [],
 }
