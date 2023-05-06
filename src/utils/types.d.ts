@@ -1,6 +1,6 @@
 export interface CardProps {
     title: string;
-    onClick?: VoidFunction;
+    // onClick?: VoidFunction;
     price: string;
     offers: string[];
 }

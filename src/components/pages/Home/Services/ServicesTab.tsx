@@ -5,9 +5,9 @@ import ServiceCard from './ServiceCard'
 
 const ServicesTab = () => {
     return (
-        <section className="bg-dark-red w-full h-[32rem] flex flex-col items-center justify-center" id="services">
+        <section className="bg-dark-red w-full lg:h-[32rem] flex flex-col items-center justify-center" id="services">
             <p className="text-5xl h-1/5 font-bold my-4 text-white flex items-center justify-center">Services</p>
-            <div className="flex flex-row flex-1 w-full px-8 justify-center">
+            <div className="flex flex-col lg:flex-row flex-1 w-full px-2 lg:px-8 justify-center items-center lg:items-start">
                 <ServiceCard 
                     title="Design" 
                     description={

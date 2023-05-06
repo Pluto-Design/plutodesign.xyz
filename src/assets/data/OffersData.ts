@@ -12,7 +12,6 @@ export const OffersData: OfferData = {
                 "Ready in 48 Hours",
                 "One-page"
             ],
-            onClick: () => { console.log("") }
         },
         {
             title: "Advanced",
@@ -24,7 +23,6 @@ export const OffersData: OfferData = {
                 "Ready in 3 Days",
                 "Up to 5 subpages"
             ],
-            onClick: () => { console.log("") }
         },
         {
             title: "Full Package",
@@ -36,7 +34,6 @@ export const OffersData: OfferData = {
                 "Ready in 5 Days",
                 "Up to 16 subpages"
             ],
-            onClick: () => { console.log("") }
         },
     ],
     hosting: [
@@ -48,7 +45,6 @@ export const OffersData: OfferData = {
                 "10 GB SSD DISK",
                 "500 GB TRANSFER",
             ],
-            onClick: () => { console.log("") }
         },
         {
             title: "Medium",
@@ -58,7 +54,6 @@ export const OffersData: OfferData = {
                 "50 GB SSD DISK",
                 "2 TB TRANSFER",
             ],
-            onClick: () => { console.log("") }
         },
         {
             title: "Pro",
@@ -68,7 +63,6 @@ export const OffersData: OfferData = {
                 "80 GB SSD DISK",
                 "4 TB TRANSFER",
             ],
-            onClick: () => { console.log("") }
         },
     ]
 }

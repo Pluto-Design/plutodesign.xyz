@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes as Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import PageNotFound from "./pages/PageNotFound";
 
 const Router = () => {
     return (
         <BrowserRouter>
             <Switch>
                 <Route path="/" element={<Home />} />
+                <Route path="*" element={<PageNotFound />} />
             </Switch>
         </BrowserRouter>
     )
