@@ -10,6 +10,9 @@ export default {
       colors: {
         "dark-red": "#9F3E3E",
         "darken-white": "#FDFDFD"
+      },
+      height: {
+        'h-screen': "100svh"
       }
     },
   },
