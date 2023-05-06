@@ -6,7 +6,7 @@ import { BsChevronDoubleDown } from 'react-icons/bs'
 const LandingPage = () => {
     return (
         <main className="w-full h-screen flex items-center justify-center flex-col" id="main">
-            <section className="flex w-full h-[90vh] flex-row">
+            <section className="flex w-full h-9/10 flex-row">
                 <div className="xl:w-2/3 w-full xl:px-32 px-8 flex-col flex justify-center md:items-start">
                     <h1 className="text-3xl lg:text-6xl font-bold">Professional <span className="text-dark-red">web services</span> for</h1>
                     <h2 className="text-4xl lg:text-6xl font-bold text-dark-red">Your Business</h2>
@@ -20,7 +20,7 @@ const LandingPage = () => {
                     <img src={PlanetLogo} className="w-[31.25rem] h-[31.25rem]" />
                 </div>
             </section>
-            <div className="w-full h-[10vh] flex justify-center items-center">
+            <div className="w-full h-1/10 flex justify-center items-center">
                 <BsChevronDoubleDown className="text-6xl animate-bounce text-dark-red cursor-pointer" onClick={() => onClickScroll("portfolio")} />
             </div>
         </main>
