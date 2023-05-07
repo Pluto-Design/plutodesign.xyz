@@ -13,7 +13,7 @@ const ServiceCard = ({ title, description, icon }: ServiceCardProps) => {
                 <div className="absolute top-[22.5%] opacity-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     {icon}
                 </div>
-                <p className="text-lg px-4 text-white font-bold">
+                <p className="text-base px-4 text-white font-bold">
                     {description}
                 </p>
             </div>

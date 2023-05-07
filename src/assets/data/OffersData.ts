@@ -28,7 +28,7 @@ export const OffersData: OfferData = {
             title: "Full Package",
             price: "$250",
             offers: [
-                "Advised for already big and rapidly growing projects",
+                "Advised for already big projects",
                 "Design & Coding",
                 "Search Engine visibility",
                 "Ready in 5 Days",
