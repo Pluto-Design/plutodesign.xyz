@@ -7,25 +7,9 @@ const Portfolio = () => {
             <div className="flex flex-1 lg:px-8 pt-8 flex-wrap justify-center items-center">
                 <PortfolioCard>
                     <a className="w-full h-full rounded-xl flex flex-col relative" href="/">
-                        <img src={"https://cdn.discordapp.com/attachments/1103991914027556920/1104126542319198368/image.png"} className="absolute duration-200 transition-all ease-in-out left-0 top-o opacity-100 hover:opacity-0 object-cover h-full w-full rounded-xl" />
+                        <img src={"https://cdn.discordapp.com/attachments/1105865881843662848/1105865903582752818/minael.png"} className="absolute duration-200 transition-all ease-in-out left-0 top-0 opacity-100 hover:opacity-0 object-cover h-full w-full rounded-xl" />
                         <div className="w-full h-full flex items-center justify-center bg-dark-red rounded-xl flex-col duration-200 transition-all ease-in-out ">
-                            <p className="text-3xl lg:text-3xl p-4 text-center w-full text-white font-bold">Project Name</p>
-                        </div>
-                    </a>
-                </PortfolioCard>
-                <PortfolioCard>
-                    <a className="w-full h-full rounded-xl flex flex-col relative" href="/">
-                        <img src={"https://cdn.discordapp.com/attachments/1103991914027556920/1104126542319198368/image.png"} className="absolute duration-200 transition-all ease-in-out left-0 top-o opacity-100 hover:opacity-0 object-cover h-full w-full rounded-xl" />
-                        <div className="w-full h-full flex items-center justify-center bg-dark-red rounded-xl flex-col duration-200 transition-all ease-in-out ">
-                            <p className="text-3xl lg:text-3xl p-4 text-center w-full text-white font-bold">Project Name</p>
-                        </div>
-                    </a>
-                </PortfolioCard>
-                <PortfolioCard>
-                    <a className="w-full h-full rounded-xl flex flex-col relative" href="/">
-                        <img src={"https://cdn.discordapp.com/attachments/1103991914027556920/1104126542319198368/image.png"} className="absolute duration-200 transition-all ease-in-out left-0 top-o opacity-100 hover:opacity-0 object-cover h-full w-full rounded-xl" />
-                        <div className="w-full h-full flex items-center justify-center bg-dark-red rounded-xl flex-col duration-200 transition-all ease-in-out ">
-                            <p className="text-3xl lg:text-3xl p-4 text-center w-full text-white font-bold">Project Name</p>
+                            <p className="text-3xl lg:text-3xl p-4 text-center w-full text-white font-bold">Minael  - Website Portfolio</p>
                         </div>
                     </a>
                 </PortfolioCard>

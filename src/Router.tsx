@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes as Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
+import React from 'react';
 
 const Router = () => {
     return (
